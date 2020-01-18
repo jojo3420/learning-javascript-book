@@ -13,5 +13,9 @@
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "parcel-bundler": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel src/public/index.html"
   }
+
 }

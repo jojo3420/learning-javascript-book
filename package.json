@@ -1,0 +1,19 @@
+{
+  "name": "learning-javascript-book",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://jojo3420@github.com/jojo3420/learning-javascript-book.git",
+  "author": "jojo3420 <jjjhhhvvv@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-es2015": "^6.24.1",
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "underscore": "^1.9.2"
+  },
+  "scripts": {
+    "start": "parcel src/public/index.html"
+  }
+}

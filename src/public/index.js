@@ -48,14 +48,16 @@ while (funds > 0 && funds < 100) {
   console.log('hands 결과 :', hands.toString());
 
   // 4. 맞춘 결과가 있는지 확인 후 정산 하기
+  let winnings = 0;
   for (let i = 0; i < hands.length; i++) {
     const card = hands[i];
     const value = roundBets[card];
     if (value > 0) {
       console.log(`도박에서 땃다! ${card} : ${value}`);
-      funds += value;
+      winnings += value;
     }
   }
+  funds = funds + winnings;
   console.log(`${round} 라운드 결과 잔고 : fund => ${funds}`);
   round++;
 }

@@ -23,7 +23,7 @@
     "underscore": "^1.9.2"
   },
   "scripts": {
-    "start": "parcel src/public/index.html"
+    "start": "node src/public/index.js"
   },
   "husky": {
     "hooks": {
